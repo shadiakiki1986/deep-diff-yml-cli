@@ -1,4 +1,4 @@
-#!/usr/bin/env nodejs
+#!/usr/bin/env node
 
 // built from example code on readme pages of git repos:
 // https://github.com/substack/minimist
