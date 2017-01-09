@@ -1,0 +1,32 @@
+{
+  "name": "deep-diff-yml",
+  "version": "3.7.0",
+  "description": "Deep-diff of YAML 1.2 files",
+  "keywords": [
+    "diff",
+    "difference",
+    "compare",
+    "change-tracking",
+    "yaml",
+    "parser",
+    "serializer",
+    "pyyaml"
+  ],
+  "homepage": "https://github.com/shadiakiki1986/deep-diff-yml-cli",
+  "author": {
+    "name": "Shadi Akiki",
+    "email": "shadiakiki1986@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shadiakiki1986/deep-diff-yml-cli.git"
+  },
+  "bin": {
+    "deep-diff-yml.js": "deep-diff-yml.js"
+  },
+  "dependencies": {
+    "deep-diff": "~0.3.4",
+    "js-yaml": "~3.7.0",
+    "minimist": "~1.2.0"
+  }
+}
