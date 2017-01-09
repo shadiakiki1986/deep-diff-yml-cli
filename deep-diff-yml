@@ -11,7 +11,7 @@ fs   = require('fs');
 var parseArgs = require('minimist');
 
 var argv = require('minimist')(process.argv.slice(2));
-if(argv['_'].length != 2) {
+if(argv['_'].length < 2) {
   throw 'Wrong usage';
 }
 

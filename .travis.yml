@@ -1,0 +1,7 @@
+language: node_js
+script:
+  - ./deep-diff-yml tests/f1.yml tests/f2.yml > tests/actual.json
+  - diff tests/expected.json tests/actual.json
+build:
+  only:
+    - master
