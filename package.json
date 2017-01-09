@@ -22,7 +22,7 @@
     "url": "git://github.com/shadiakiki1986/deep-diff-yml-cli.git"
   },
   "bin": {
-    "deep-diff-yml.js": "deep-diff-yml.js"
+    "deep-diff-yml": "deep-diff-yml"
   },
   "dependencies": {
     "deep-diff": "~0.3.4",
