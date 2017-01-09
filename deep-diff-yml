@@ -1,3 +1,5 @@
+#!/usr/bin/env nodejs
+
 // built from example code on readme pages of git repos:
 // https://github.com/substack/minimist
 // https://github.com/flitbit/diff
