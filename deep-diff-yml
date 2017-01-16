@@ -20,8 +20,8 @@ var readYml = function(fn) {
   return yaml.safeLoad(fs.readFileSync(fn, 'utf8'));
 }
 
-var lhs = readYml(argv['_'][0]);
-var rhs = readYml(argv['_'][1]);
+var rhs = readYml(argv['_'][0]);
+var lhs = readYml(argv['_'][1]);
 var differences = diff(lhs, rhs);
 if(!differences) { differences = []; }
 
